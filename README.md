@@ -1,4 +1,4 @@
-# 米蕾優按钮 /  Nemu按钮 / Nemu Button
+# 米蕾優按钮 /  Mireyu按钮 / Mireyu Button
 
 ##### 项目地址: https://hiiro.club/
 

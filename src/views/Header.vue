@@ -3,7 +3,7 @@
     <div class="header">
       <transition name="logo" appear>
       </transition>
-      <div class="title">{{ t('info.title') }}</div>
+      <div class="title"><span style="margin:0 10px">🐷</span>{{ t('info.title') }}</div>
       <template v-for="(btn, index) in btnList" :key="index">
         <i-btn v-if="btn.url" :url="btn.url" :img="btn.img" />
       </template>
@@ -205,7 +205,7 @@ export default {
     height 30px
     margin 0 10px 0 auto
     border-radius 50%
-    background rgba(119,221,255, 0.5)
+    background rgba(237,177,181, 0.5)
     cursor pointer
 
     svg
@@ -218,7 +218,7 @@ export default {
       box-shadow 0px 0px 5px 0px #fff
 
     &:active
-      background rgba(119,221,255, 0.6)
+      background rgba(237,177,181, 0.6)
 
 @media only screen and (min-width 550px)
   .search-btn
