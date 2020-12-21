@@ -1,9 +1,9 @@
-# 眠按钮 /  Nemu按钮 / Nemu Button
+# 米蕾優按钮 /  Nemu按钮 / Nemu Button
 
 ##### 项目地址: https://hiiro.club/
 
 ### 相关链接：
-- [佐久间眠的直播间(已毕业)](https://space.bilibili.com/476903292/)
+- [佐久间米蕾優的直播间(已毕业)](https://space.bilibili.com/476903292/)
 
 ### 参与完善本项目
 
