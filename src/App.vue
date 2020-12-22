@@ -8,6 +8,9 @@
       <div class="snow background"></div>
       <div class="snow background layered"></div>
     </div>
+    <div class="antiBg" :class="{close:close}">
+      <span @click="close = true">摘下anti头套</span>
+    </div>
     <v-header />
     <img src="../src/assets/image/bgimg.png" alt="" class="bgimg">
     <router-view style="min-height: calc(100vh - 48px - 67px)" />
@@ -31,6 +34,7 @@ export default {
     Control,
     VFooter
   },
+
   setup() {
     const playSetting: PlaySetting = reactive({
       loading: true,
@@ -50,6 +54,7 @@ export default {
     })
     provide('infoDate', infoDate)
 
+    const close = ref(false)
     const searchData: SearchData = reactive({
       value: '',
       list: [],
@@ -91,7 +96,8 @@ export default {
     }
 
     return {
-      showControl
+      showControl,
+      close
     }
   }
 }
@@ -105,6 +111,27 @@ a
   margin-left 5px
   color #888
   text-decoration none
+
+.antiBg
+  position fixed
+  width 100vw
+  height 100vh
+  background-color #000
+  z-index 101
+  transition all 1s
+  opacity 1
+  &.close
+    transform rotate(360deg)
+    width 0vw
+    height 0vh
+    opacity 0
+  span
+    color #fff
+    position absolute
+    top 50%
+    left 50%
+    transform translate(-50%,-50%)
+    cursor pointer
 
 .bgimg
   position fixed
