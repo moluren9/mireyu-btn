@@ -153,6 +153,8 @@ export default {
   transition all 0.3s
   color #888
   background rgba(0, 0, 0, 0) !important
+  border 1px solid #800e13
+  border-radius 10px
 
   input
     flex 1
@@ -161,7 +163,7 @@ export default {
     box-sizing border-box
     border-radius 10px 0 0 10px
     padding 0 2px 0 10px
-    border 1px solid #ddd
+    border none
     border-right none
     color #888
     opacity 1
@@ -193,7 +195,7 @@ export default {
     width 24px
     height 30px
     background #fff
-    border 1px solid #ddd
+    border none
     border-left none
     border-right none
 

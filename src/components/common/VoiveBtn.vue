@@ -87,6 +87,7 @@ export default {
     line-height 20px
     padding 5px 15px
     word-break break-all
+    transition color .5s
 
   &:before
     content ''
@@ -109,6 +110,7 @@ export default {
 
     span
       animation shake 3s linear infinite
+      color #fff
 
   &:active
     background $active-color

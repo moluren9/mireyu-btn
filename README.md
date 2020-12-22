@@ -1,9 +1,7 @@
 # 米蕾優按钮 /  Mireyu按钮 / Mireyu Button
 
-##### 项目地址: https://Mireyu.club/
+##### 项目地址: 待定
 
-### 相关链接：
-- [佐久间米蕾優的直播间(已毕业)](https://space.bilibili.com/476903292/)
 
 ### 参与完善本项目
 
@@ -30,26 +28,26 @@
   "category": [
     {
       // 分类命名
-      "name": "你妈的",
+      "name": "",
       "translate": {
         // 分类中文翻译
-        "zh-CN": "草你○的",
+        "zh-CN": "",
         // 分类英文翻译
-          "en-US": "草你○的~"
+          "en-US": ""
       }
     }
   ],
   // 语音列表
   "voices": [
    {
-      "name": "○的",
-      "path": "○的.wav",
+      "name": "",
+      "path": ".wav",
       "date": "2020-12-20",
       "translate": {
-        "zh-CN": "○的",
-        "en-US": "○的"
+        "zh-CN": "",
+        "en-US": ""
       },
-      "category": "你妈的"
+      "category": ""
     }
   ]
 }

@@ -4,7 +4,7 @@
     <template v-for="item in voices" :key="item.name">
       <Card v-if="needToShow(item.translate)">
         <template v-slot:header>
-          <div class="category">{{ t("voicecategory." + item.name) }}</div>
+          <div class="category">{{ t("voicecategory." + item.name) }}🎄</div>
         </template>
         <div class="content">
           <div v-for="voice in item.voiceList" :key="voice.name">
@@ -425,6 +425,9 @@ export default {
   font-size 24px
   padding 14px 10px
   user-select none
+  font-weight bold
+  color #fff
+  text-shadow 0 0 5px #ccc
 
 .content
   display flex

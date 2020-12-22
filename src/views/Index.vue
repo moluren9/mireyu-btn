@@ -2,11 +2,11 @@
   <transition name="fade" appear>
     <div class="index">
       <voice />
-      <card>
+      <!-- <card>
         <div style="text-align: center">
           {{ t(INFO_I18N.voiceTotalTip) }}: {{ t(INFO_I18N.voiceTotal) }}
         </div>
-      </card>
+      </card> -->
       <card>
         <div class="content">
           <Btn

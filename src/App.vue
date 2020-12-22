@@ -111,7 +111,7 @@ a
   height calc(100vh - 48px)
   top 48px
   z-index: -2
-  background-color #eaddbd
+  background-color #800e13
   width 100vw
   object-position right
   object-fit contain

@@ -14,7 +14,7 @@
   margin 10px 5px
   border-radius 5px
   border 1px solid #EBEEF5
-  background-color rgba(255,255,255,.5);
+  background-color rgba(27,63,45,.85);
   overflow hidden
   color #303133
   transition box-shadow 0.25s
