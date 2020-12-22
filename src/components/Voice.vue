@@ -9,6 +9,9 @@
         <div class="content">
           <div v-for="voice in item.voiceList" :key="voice.name">
             <div v-if="needToShow(voice.translate)" class="btn-wrapper">
+              <img src="../../src/assets/image/maozi.png" alt="" class="hat">
+              <!-- <img src="../../src/assets/image/milu.png" alt="" class="milu"> -->
+              <div class="snow-buttom"></div>
               <NewIcon class="icon" v-if="voice.date === showNew" />
               <VBtn
                 :text="t('voice.' + voice.name)"
@@ -429,7 +432,7 @@ export default {
 
   .btn-wrapper
     position relative
-    margin 5px
+    margin 10px
 
     .icon
       z-index 2

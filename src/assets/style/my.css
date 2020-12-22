@@ -1,0 +1,47 @@
+body {
+  background-color: #efe5c2;
+}
+.flex {
+  display: flex;
+  padding: 50px;
+}
+.btn-wrapper .hat {
+  position: absolute;
+  width: 30px;
+  right: -12px;
+  top: -16px;
+  z-index: 10;
+  transform: rotate(30deg);
+}
+.btn-wrapper .milu {
+  position: absolute;
+  width: 30px;
+  left: -12px;
+  top: -16px;
+  z-index: 10;
+  transform: rotate(-30deg);
+}
+.btn-wrapper .snow-buttom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: repeat;
+  background-image: url('../image/snow.png');
+  background-position: left;
+  background-size: contain;
+  width: 100%;
+  height: 10px;
+  z-index: 9;
+  border-top-left-radius: 10px;
+}
+#canvas {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+div.card-wrapper {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.card-wrapper {
+  border-color: #d81e06;
+}

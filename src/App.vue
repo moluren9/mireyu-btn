@@ -1,5 +1,13 @@
 <template>
   <div id="app">
+    <div class="snow-container">
+      <div class="snow foreground"></div>
+      <div class="snow foreground layered"></div>
+      <div class="snow middleground"></div>
+      <div class="snow middleground layered"></div>
+      <div class="snow background"></div>
+      <div class="snow background layered"></div>
+    </div>
     <v-header />
     <img src="../src/assets/image/bgimg.png" alt="" class="bgimg">
     <router-view style="min-height: calc(100vh - 48px - 67px)" />
@@ -88,7 +96,6 @@ export default {
   }
 }
 </script>
-
 <style lang="stylus">
 body
   margin 0
@@ -103,7 +110,7 @@ a
   position fixed
   height calc(100vh - 48px)
   top 48px
-  z-index: -1
+  z-index: -2
   background-color #eaddbd
   width 100vw
   object-position right

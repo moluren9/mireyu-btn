@@ -8,6 +8,8 @@ import Locales from '@/setting/translate/locales.json'
 
 import Setting from './setting/setting.json'
 import './assets/style/transition.styl'
+import './assets/style/snow.css'
+import './assets/style/my.css'
 
 import { gtag } from './assets/script/gtag.js'
 
