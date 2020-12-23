@@ -20,6 +20,13 @@
         "zh-CN": "舰长",
         "en-US": "舰长"
       }
+    },
+    {
+      "name": "死现充",
+      "translate": {
+        "zh-CN": "死现充",
+        "en-US": "死现充"
+      }
     }
   ],
   "voices": [
@@ -81,7 +88,7 @@
         "zh-CN": "光坂の星",
         "en-US": "光坂の星"
       },
-      "category": "舰"
+      "category": "死现充"
     },
     {
       "name": "オレンジ系プリン",
@@ -122,6 +129,26 @@
         "en-US": "弥荣"
       },
       "category": "V"
+    },
+    {
+      "name": "灼眼のk酱",
+      "path": "灼眼のk酱.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "灼眼のk酱",
+        "en-US": "灼眼のk酱"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "星_シルフィル",
+      "path": "星_シルフィル.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "星_シルフィル",
+        "en-US": "星_シルフィル"
+      },
+      "category": "舰"
     }
   ]
 }
