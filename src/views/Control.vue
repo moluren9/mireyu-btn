@@ -307,7 +307,6 @@ a
   position sticky
   bottom 0
   background rgba(255, 255, 255, 0.7)
-  z-index -1
 
   .playing
     position relative
@@ -373,10 +372,9 @@ a
 
 .snowpig
   position absolute
-  width 200px
+  width 90px
   bottom 0px
   left 0px
-  z-index -1
   -webkit-transform-origin bottom center
   -moz-transform-origin bottom center
   -o-transform-origin bottom center
@@ -389,8 +387,6 @@ a
 @media only screen and (max-width 768px)
   .snowpig
     width 15vw
-  .control
-    z-index 1
 
 @-webkit-keyframes swing {
   10% {
