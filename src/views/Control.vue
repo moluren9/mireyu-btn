@@ -307,6 +307,7 @@ a
   position sticky
   bottom 0
   background rgba(255, 255, 255, 0.7)
+  z-index 10
 
   .playing
     position relative

@@ -38,6 +38,7 @@ a
 .index
   margin 0 auto
   width 90%
+  overflow hidden
 
   .content
     display flex
