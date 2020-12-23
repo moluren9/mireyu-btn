@@ -4,13 +4,13 @@
     <template v-for="item in voices" :key="item.name">
       <Card v-if="needToShow(item.translate)">
         <template v-slot:header>
-          <div class="category">{{ t("voicecategory." + item.name) }}🎄</div>
+          <div class="category">{{ t("voicecategory." + item.name) }}&nbsp;🎄</div>
         </template>
         <div class="content">
           <div v-for="voice in item.voiceList" :key="voice.name">
             <div v-if="needToShow(voice.translate)" class="btn-wrapper">
               <img src="../../src/assets/image/maozi.png" alt="" class="hat">
-              <!-- <img src="../../src/assets/image/milu.png" alt="" class="milu"> -->
+              <img src="../../src/assets/image/milu.png" alt="" class="hat">
               <div class="snow-buttom"></div>
               <NewIcon class="icon" v-if="voice.date === showNew" />
               <VBtn
@@ -478,4 +478,5 @@ export default {
         opacity 1
         transition opacity 0s
         transition-delay 0s
+
 </style>

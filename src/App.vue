@@ -9,7 +9,8 @@
       <div class="snow background layered"></div>
     </div>
     <div class="antiBg" :class="{close:close}">
-      <span @click="close = true">摘下anti头套</span>
+      <img src="../src/assets/image/antibg.png" alt="" class="antiImg">
+      <img src="../src/assets/image/antibtn.png" class="antiBtn" @click="close = true" />
     </div>
     <v-header />
     <img src="../src/assets/image/bgimg.png" alt="" class="bgimg">
@@ -54,7 +55,7 @@ export default {
     })
     provide('infoDate', infoDate)
 
-    const close = ref(true)
+    const close = ref(false)
     const searchData: SearchData = reactive({
       value: '',
       list: [],
@@ -116,22 +117,36 @@ a
   position fixed
   width 100vw
   height 100vh
-  background-color #000
   z-index 101
   transition all 1s
-  opacity 1
+  opacity 1;
+  right 0
+  &:after
+    content ''
+    position absolute
+    width 100%
+    height 100%
+    top 0
+    left 0
+    background rgba(0,0,0,.5)
   &.close
-    transform rotate(360deg)
+    transform rotate(720deg)
     width 0vw
     height 0vh
     opacity 0
-  span
-    color #fff
+  .antiImg
+    width 100%
+    height 100%
+    object-fit cover
+    object-position center
+  .antiBtn
     position absolute
     top 50%
     left 50%
+    width 150px
     transform translate(-50%,-50%)
-    cursor pointer
+    z-index 100
+    // cursor pointer
 
 .bgimg
   position fixed

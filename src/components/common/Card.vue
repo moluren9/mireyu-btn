@@ -1,5 +1,6 @@
 <template>
   <div class="card-wrapper">
+    <img src="../../assets/image/sock.png" alt="" class="sock">
     <img src="../../assets/image/ring.png" alt="" class="ring">
     <div class="card-header" v-if="$slots.header">
       <slot name="header"></slot>
@@ -31,7 +32,7 @@
   .card-text
     padding 15px 10px
 
-.ring
+.ring,.sock
   position absolute
   width 60px
   top -20px
@@ -44,6 +45,12 @@
   -moz-animation swing 6s .15s linear infinite; /* Firefox */
   -webkit-animation swing 6s .15s linear infinite; /* Safari and Chrome */
   -o-animation swing 6s .15s linear infinite; /* Opera */
+
+.sock{
+  right unset
+  left -20px
+  width 50px
+}
 
 @-webkit-keyframes swing {
   10% {

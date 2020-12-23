@@ -5,6 +5,12 @@ body {
   display: flex;
   padding: 50px;
 }
+.content > div:nth-child(2n-1) .btn-wrapper .hat:nth-child(1) {
+  display: none;
+}
+.content > div:nth-child(2n) .btn-wrapper .hat:nth-child(2) {
+  display: none;
+}
 .btn-wrapper .hat {
   position: absolute;
   width: 30px;
@@ -56,4 +62,8 @@ body a,
 html .icon,
 body .icon {
   cursor: url('../image/candy2.png'), auto;
+}
+html .antiBg .antiBtn,
+body .antiBg .antiBtn {
+  cursor: url('../image/fans.png'), auto;
 }
