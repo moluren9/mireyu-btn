@@ -1,5 +1,5 @@
 body {
-  background-color: #efe5c2;
+  background-color: #800e13;
 }
 .flex {
   display: flex;
@@ -66,4 +66,7 @@ body .icon {
 html .antiBg .antiBtn,
 body .antiBg .antiBtn {
   cursor: url('../image/fans.png'), auto;
+}
+body {
+  overflow-x: hidden;
 }

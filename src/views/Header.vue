@@ -155,7 +155,7 @@ export default {
 
 <style lang="stylus" scoped>
 .header
-  z-index 5
+  z-index 15
   display flex
   align-items center
   position sticky

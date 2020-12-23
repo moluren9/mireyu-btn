@@ -389,6 +389,8 @@ a
 @media only screen and (max-width 768px)
   .snowpig
     width 15vw
+  .control
+    z-index 1
 
 @-webkit-keyframes swing {
   10% {
