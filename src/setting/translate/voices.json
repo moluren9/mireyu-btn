@@ -149,6 +149,26 @@
         "en-US": "星_シルフィル"
       },
       "category": "舰"
+    },
+    {
+      "name": "神因",
+      "path": "神因.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "神因",
+        "en-US": "神因"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "南宫萧然咩",
+      "path": "南宫萧然咩.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "南宫萧然咩",
+        "en-US": "南宫萧然咩"
+      },
+      "category": "舰"
     }
   ]
 }
