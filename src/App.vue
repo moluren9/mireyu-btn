@@ -114,9 +114,9 @@ a
   text-decoration none
 
 .antiBg
-  position absolute
-  width 100vw
-  height 100vh
+  position fixed
+  width 100%
+  height 100%
   z-index 101
   transition all 1s
   opacity 1
