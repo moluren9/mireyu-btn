@@ -386,6 +386,10 @@ a
   -webkit-animation swing 6s .15s linear infinite; /* Safari and Chrome */
   -o-animation swing 6s .15s linear infinite; /* Opera */
 
+@media only screen and (max-width 768px)
+  .snowpig
+    width 15vw
+
 @-webkit-keyframes swing {
   10% {
     transform: rotate(10deg);

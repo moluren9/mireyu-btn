@@ -114,13 +114,14 @@ a
   text-decoration none
 
 .antiBg
-  position fixed
+  position absolute
   width 100vw
   height 100vh
   z-index 101
   transition all 1s
   opacity 1
-  right 0
+  right 0px
+  top 0px
   background #fff
   &:after
     content ''
