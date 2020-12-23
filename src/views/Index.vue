@@ -38,7 +38,6 @@ a
 .index
   margin 0 auto
   width 90%
-  overflow hidden
 
   .content
     display flex
@@ -51,4 +50,8 @@ a
 @media only screen and (max-width 600px)
   .index
     width 95%
+
+@media only screen and (max-width 768px)
+  .index
+    overflow hidden
 </style>
