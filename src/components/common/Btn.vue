@@ -40,7 +40,7 @@ a
   background $main-color
   box-shadow 0px 1px 5px 0px #ddd
   user-select none
-  cursor pointer
+  // cursor pointer
   transition box-shadow 0.25s
 
   &:hover

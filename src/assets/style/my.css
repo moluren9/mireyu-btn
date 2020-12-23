@@ -45,3 +45,15 @@ div.card-wrapper {
 .card-wrapper {
   border-color: #d81e06;
 }
+html,
+body {
+  cursor: url('../image/candy.png'), auto;
+}
+html .btn,
+body .btn,
+html a,
+body a,
+html .icon,
+body .icon {
+  cursor: url('../image/candy2.png'), auto;
+}

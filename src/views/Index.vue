@@ -7,25 +7,6 @@
           {{ t(INFO_I18N.voiceTotalTip) }}: {{ t(INFO_I18N.voiceTotal) }}
         </div>
       </card> -->
-      <card>
-        <div class="content">
-          <Btn
-            class="btn"
-            :name="t(INFO_I18N.vtbbtn)"
-            url="https://vtbbtn.org/"
-            color="rgb(100, 181, 246)"
-          />
-          <template v-for="item in list" :key="item.name">
-            <Btn
-              class="btn"
-              :name="item.name"
-              :url="item.url"
-              :color="item.color"
-              :background="item.background"
-            />
-          </template>
-        </div>
-      </card>
     </div>
   </transition>
 </template>
@@ -34,23 +15,16 @@
 import { useI18n } from 'vue-i18n'
 import { INFO_I18N } from '@/assets/script/option'
 import Voice from '@/components/Voice.vue'
-import Card from '@/components/common/Card.vue'
-import Btn from '@/components/common/Btn.vue'
 
 export default {
   components: {
-    Voice,
-    Card,
-    Btn
+    Voice
   },
   setup() {
     const { t } = useI18n()
 
-    const list = []
-
     return {
       t,
-      list,
       INFO_I18N
     }
   }

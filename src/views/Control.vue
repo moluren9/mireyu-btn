@@ -1,6 +1,7 @@
 <template>
   <transition name="slider-up" appear>
     <div class="control">
+      <img src="../assets/image/snowpig.png" alt="" class="snowpig">
       <div class="playing" v-if="!playSetting.showInfo">
         <transition name="fade">
           <loading
@@ -351,7 +352,7 @@ a
   margin 0 5px
   border-radius 50%
   background $main-color
-  cursor pointer
+  // cursor pointer
 
   svg
     user-select none
@@ -368,4 +369,88 @@ a
 
 .icon-active
   background $active-color
+
+.snowpig
+  position absolute
+  width 200px
+  bottom 0px
+  left 0px
+  z-index -1
+  -webkit-transform-origin bottom center
+  -moz-transform-origin bottom center
+  -o-transform-origin bottom center
+  transform-origin bottom center
+  animation swing 6s .15s linear infinite;
+  -moz-animation swing 6s .15s linear infinite; /* Firefox */
+  -webkit-animation swing 6s .15s linear infinite; /* Safari and Chrome */
+  -o-animation swing 6s .15s linear infinite; /* Opera */
+
+@-webkit-keyframes swing {
+  10% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(4deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50%,100% {
+    transform: rotate(0deg);
+  }
+}
+@-moz-keyframes swing {
+  10% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(4deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50%,100% {
+    transform: rotate(0deg);
+  }
+}
+@-o-keyframes swing {
+  10% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(4deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50%,100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes swing {
+  10% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(4deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50%,100% {
+    transform: rotate(0deg);
+  }
+}
 </style>

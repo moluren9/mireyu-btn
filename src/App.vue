@@ -26,13 +26,13 @@ import { IsShowSearch, PlaySetting, SearchData } from '@/assets/script/option'
 import Setting from '@/setting/setting.json'
 import VHeader from '@/views/Header.vue'
 import Control from '@/views/Control.vue'
-import VFooter from '@/views/Footer.vue'
+// import VFooter from '@/views/Footer.vue'
 
 export default {
   components: {
     VHeader,
-    Control,
-    VFooter
+    Control
+    // VFooter
   },
 
   setup() {
@@ -54,7 +54,7 @@ export default {
     })
     provide('infoDate', infoDate)
 
-    const close = ref(false)
+    const close = ref(true)
     const searchData: SearchData = reactive({
       value: '',
       list: [],

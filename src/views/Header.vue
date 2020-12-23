@@ -3,7 +3,7 @@
     <div class="header">
       <transition name="logo" appear>
       </transition>
-      <div class="title"><span style="margin:0 10px">🐷</span>{{ t('info.title') }}</div>
+      <div class="title"><img src="../assets/image/h-icon.png" alt="" style="width:30px;margin:0 10px">{{ t('info.title') }}</div>
       <template v-for="(btn, index) in btnList" :key="index">
         <i-btn v-if="btn.url" :url="btn.url" :img="btn.img" />
       </template>
@@ -181,6 +181,8 @@ export default {
     font-size 20px
     margin-right 10px
     user-select none
+    display flex
+    align-items center
 
   .search-btn
     width 30px
@@ -206,7 +208,7 @@ export default {
     margin 0 10px 0 auto
     border-radius 50%
     background rgba(237,177,181, 0.5)
-    cursor pointer
+    // cursor pointer
 
     svg
       height 70%
@@ -232,4 +234,5 @@ export default {
     width 0px
     margin 0
     opacity 0
+
 </style>
