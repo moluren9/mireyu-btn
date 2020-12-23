@@ -119,8 +119,9 @@ a
   height 100vh
   z-index 101
   transition all 1s
-  opacity 1;
+  opacity 1
   right 0
+  background #fff
   &:after
     content ''
     position absolute
