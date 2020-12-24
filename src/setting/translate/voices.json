@@ -419,6 +419,16 @@
         "en-US": "芋绵"
       },
       "category": "舰"
+    },
+    {
+      "name": "NoiR",
+      "path": "NoiR.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "NoiR",
+        "en-US": "NoiR"
+      },
+      "category": "Ｖ"
     }
   ]
 }
