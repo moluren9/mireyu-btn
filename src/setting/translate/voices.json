@@ -409,16 +409,6 @@
         "en-US": "奥德莉"
       },
       "category": "V"
-    },
-    {
-      "name": "苍月翔",
-      "path": "苍月翔.wav",
-      "date": "2020-12-21",
-      "translate": {
-        "zh-CN": "苍月翔",
-        "en-US": "苍月翔"
-      },
-      "category": "舰"
     }
   ]
 }
