@@ -20,13 +20,6 @@
         "zh-CN": "舰长",
         "en-US": "舰长"
       }
-    },
-    {
-      "name": "死现充",
-      "translate": {
-        "zh-CN": "死现充",
-        "en-US": "死现充"
-      }
     }
   ],
   "voices": [
@@ -88,7 +81,7 @@
         "zh-CN": "光坂の星",
         "en-US": "光坂の星"
       },
-      "category": "死现充"
+      "category": "舰"
     },
     {
       "name": "オレンジ系プリン",
@@ -157,6 +150,66 @@
       "translate": {
         "zh-CN": "神因",
         "en-US": "神因"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "南宫萧然咩",
+      "path": "南宫萧然咩.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "南宫萧然咩",
+        "en-US": "南宫萧然咩"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "永梦Toko",
+      "path": "永梦Toko.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "永梦Toko",
+        "en-US": "永梦Toko"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "三明治饺子",
+      "path": "三明治饺子.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "三明治饺子",
+        "en-US": "三明治饺子"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "梦镜里有什么",
+      "path": "梦镜里有什么.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "梦镜里有什么",
+        "en-US": "梦镜里有什么"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "烬繁华落叶",
+      "path": "烬繁华落叶.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "烬繁华落叶",
+        "en-US": "烬繁华落叶"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "ノワールの桃",
+      "path": "ノワールの桃.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "ノワールの桃",
+        "en-US": "ノワールの桃"
       },
       "category": "舰"
     },
