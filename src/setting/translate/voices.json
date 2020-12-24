@@ -409,6 +409,16 @@
         "en-US": "奥德莉"
       },
       "category": "V"
+    },
+    {
+      "name": "芋绵",
+      "path": "芋绵.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "芋绵",
+        "en-US": "芋绵"
+      },
+      "category": "V"
     }
   ]
 }
