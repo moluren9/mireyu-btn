@@ -148,8 +148,17 @@ a
     width 150px
     transform translate(-50%,-50%)
     z-index 100
+    animation anti 20s
     // cursor pointer
 
+@keyframes anti {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .bgimg
   position fixed
   height calc(100vh - 48px)
