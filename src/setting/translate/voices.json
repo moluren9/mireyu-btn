@@ -20,6 +20,13 @@
         "zh-CN": "舰长",
         "en-US": "舰长"
       }
+    },
+    {
+      "name": "外",
+      "translate": {
+        "zh-CN": "施工队",
+        "en-US": "施工队"
+      }
     }
   ],
   "voices": [
@@ -201,7 +208,7 @@
         "zh-CN": "烬繁华落叶",
         "en-US": "烬繁华落叶"
       },
-      "category": "舰"
+      "category": "组"
     },
     {
       "name": "ノワールの桃",
@@ -214,14 +221,114 @@
       "category": "舰"
     },
     {
-      "name": "南宫萧然咩",
-      "path": "南宫萧然咩.wav",
+      "name": "永夜黎明れいめい",
+      "path": "永夜黎明れいめい.wav",
       "date": "2020-12-21",
       "translate": {
-        "zh-CN": "南宫萧然咩",
-        "en-US": "南宫萧然咩"
+        "zh-CN": "永夜黎明れいめい",
+        "en-US": "永夜黎明れいめい"
       },
       "category": "舰"
+    },
+    {
+      "name": "落天",
+      "path": "落天.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "落天",
+        "en-US": "落天"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "NoiRのプリンofficial",
+      "path": "NoiRのプリンofficial.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "NoiRのプリンofficial",
+        "en-US": "NoiRのプリンofficial"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "苍月翔",
+      "path": "苍月翔.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "苍月翔",
+        "en-US": "苍月翔"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "高调奢华美男子",
+      "path": "高调奢华美男子.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "高调奢华美男子",
+        "en-US": "高调奢华美男子"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "米粥Rice",
+      "path": "米粥Rice.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "米粥Rice",
+        "en-US": "米粥Rice"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "饭团",
+      "path": "饭团.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "饭团",
+        "en-US": "饭团"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "弦物理",
+      "path": "弦物理.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "弦物理",
+        "en-US": "弦物理"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "机侠客",
+      "path": "机侠客.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "机侠客",
+        "en-US": "机侠客"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "魂之终焉",
+      "path": "魂之终焉.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "魂之终焉",
+        "en-US": "魂之终焉"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "猪之歌完整版",
+      "path": "猪之歌完整版.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "猪之歌完整版",
+        "en-US": "猪之歌完整版"
+      },
+      "category": "外"
     }
   ]
 }
