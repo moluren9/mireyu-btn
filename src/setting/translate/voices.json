@@ -349,6 +349,16 @@
         "en-US": "kirinki"
       },
       "category": "舰"
+    },
+    {
+      "name": "南宫瑾娴",
+      "path": "南宫瑾娴.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "南宫瑾娴",
+        "en-US": "南宫瑾娴"
+      },
+      "category": "舰"
     }
   ]
 }
