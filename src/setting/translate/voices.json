@@ -359,6 +359,66 @@
         "en-US": "南宫瑾娴"
       },
       "category": "舰"
+    },
+    {
+      "name": "惊呆型近衛ス",
+      "path": "惊呆型近衛ス.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "惊呆型近衛ス",
+        "en-US": "惊呆型近衛ス"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "冰幻梵音",
+      "path": "冰幻梵音.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "冰幻梵音",
+        "en-US": "冰幻梵音"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "本本",
+      "path": "本本.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "本本",
+        "en-US": "本本"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "凌飒",
+      "path": "凌飒.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "凌飒",
+        "en-US": "凌飒"
+      },
+      "category": "舰"
+    },
+    {
+      "name": "奥德莉",
+      "path": "奥德莉.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "奥德莉",
+        "en-US": "奥德莉"
+      },
+      "category": "V"
+    },
+    {
+      "name": "苍月翔",
+      "path": "苍月翔.wav",
+      "date": "2020-12-21",
+      "translate": {
+        "zh-CN": "苍月翔",
+        "en-US": "苍月翔"
+      },
+      "category": "舰"
     }
   ]
 }
